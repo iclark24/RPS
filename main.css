@@ -1,0 +1,25 @@
+body {
+  background-color: lightgrey;
+}
+
+.options {
+  width: 130px;
+  height: 130px;
+  display: inline-flex;
+  margin: 10px;
+  border: 3px ridge red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.selection {
+  margin:auto;
+  text-align: center;
+  width: 500px;
+}
