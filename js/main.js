@@ -1,5 +1,8 @@
 var result = ["You Win!", "You Lose!", "It's a Draw!"];
 var choices = ["Rock", "Paper", "Scissors"]
+var win = 0
+var lose = 0
+var draw = 0
 
 function play(userinput) {
   cs = choices[Math.floor(Math.random()*choices.length)];
@@ -22,4 +25,12 @@ function play(userinput) {
   else { 
     document.getElementById("result").innerHTML = result[1];
   }
+}
+
+function win(result){
+  rs = result
+  if (result = "Draw"){
+    
+  }
+
 }
